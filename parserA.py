@@ -62,6 +62,6 @@ def syntactic_analysis(tokens):
                                                                     if parse_print(tokens):
                                                                         if tokens[index][0] == 'LLAVEDER':
                                                                             return "Estructura FOR correcta"
-        return "Error de sintaxis"
+        return "Error linea: " + str(index) + " con el token: " + str(tokens[index])
 
     return parse_for(tokens)

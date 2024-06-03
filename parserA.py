@@ -1,6 +1,6 @@
-# parser.py
 def syntactic_analysis(tokens):
     index = 0
+    print(tokens)
 
     def parse_expression(tokens):
         nonlocal index

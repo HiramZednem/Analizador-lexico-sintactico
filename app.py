@@ -1,7 +1,7 @@
 # app.py
 from flask import Flask, request, render_template
 from lexer import lexical_analysis
-from parser import syntactic_analysis
+from parserA import syntactic_analysis
 
 app = Flask(__name__)
 
